@@ -1,0 +1,18 @@
+Running .Net project in different environments
+
+dotnet run --environment Development
+
+dotnet run --environment Production
+
+dotnet run --environment Staging
+
+Get-ChildItem Env:ASPNETCORE_ENVIRONMENT
+
+
+$env:ASPNETCORE_ENVIRONMENT=$null
+
+
+env:$ASPNETCORE_ENVIRONMENT="Development"
+
+
+dotnet run --launch-profile "profile1"

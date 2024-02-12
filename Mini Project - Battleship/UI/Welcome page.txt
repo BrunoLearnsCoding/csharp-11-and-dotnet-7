@@ -1,0 +1,18 @@
+
+Welcome to the Battleship!
+Are you ready to fight and conquer the oceans?
+
+First, you choose names for your captains.
+
+Enter a name for the first captain: Jamshid!
+Hi captain Jamshid. Your fleet is on position and ready to fire.
+
+Enter a name for the second captain: Farhad
+Hi captain Farhad. Your fleet is on position and ready to fire.
+
+Let's fight!
+
+
+
+
+

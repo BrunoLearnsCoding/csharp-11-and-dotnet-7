@@ -1,0 +1,25 @@
+           Battleship    
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+Fight to death and conquer oceans
+
+Round: 3
+Captain Jamshid:  3 ships 
+Captain Farhad:   1 ship
+Turn: Captain Jamshid
+
+
+----------------------
+      1  2  3  4  5  
+  A  XX XX XX XX XX
+  B  XX BS XX XX XX
+  C  XX XX XX XX XX
+  D  XX XX XX BS XX
+  E  XX XX XX XX XX
+---------------------
+Order captain! [Jamshid]: A4
+Aye aye captain!
+Fire!
+Our attack was a win. We destroyed the enemy's battleship.
+
+Any key to next turn...
+

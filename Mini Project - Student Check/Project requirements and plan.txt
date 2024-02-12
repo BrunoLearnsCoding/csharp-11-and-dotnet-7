@@ -1,0 +1,33 @@
+This is the first time I'm planning to code a mini project. I watched a video form Tim Corey's C# Master Cours.
+In this particular episode, I am supposed to :
+
+Make a tiny console application which takes the user's name and her age. If the user name is bob or sue, 
+address them as professors. If the age is under 21, recommend the user to wait for X years to start this class.
+
+
+My plann :
+1) Get the name and assign it to variable 'name'.
+2) Get the age. Check if its a valid age. if not ask for a valid age again.
+3) Check if the name is bob or sue. If yes, say 'Hello Professor'.
+4) Check if the age is equal or above 21. If yes, say 'Hello {name}'.
+5) If not, say 'You have to wait 21-age years to start this class.  
+
+
+I implemented what I planned an then I watched the next video, in which Tim showed me how to plan.
+
+This is how Tim planned :
+
+ask for name : {firstName}
+ask for age : {age}
+
+if {firstName} = Bob or Sue 
+    {formattedName} = "Professor" {firstName}
+else
+    {fromattedName} = {firstName}
+
+if age < 21 
+    I recommend you to wait {21 - age} years to start this class, {name}
+else
+    Wellcome to class {formattedName}
+
+
