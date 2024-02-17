@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -27,6 +28,7 @@
     <ProjectReference Include="..\MathClassLib\MathClassLib.csproj" />
     <ProjectReference Include="..\CalculatorLib\CalculatorLib.csproj" />
     <ProjectReference Include="..\Records in C#\Records in C#.csproj" />
+    <ProjectReference Include="..\Implementing Common Interfaces\Implementing Common Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
