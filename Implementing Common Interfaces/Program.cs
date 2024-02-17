@@ -1,12 +1,24 @@
 ﻿
 
+
 namespace Implementing_Common_Interfaces;
 
 class Program
 {
     static void Main(string[] args)
     {
+        // TestIComparable();
+        TestIFormatable();
+    }
 
+    private static void TestIFormatable()
+    {
+        var p = new Person("Wiesley") {FirstName = "Ronald"};
+        System.Console.WriteLine(p.ToString("LL, FF", null));
+    }
+
+    private static void TestIComparable()
+    {
         List<Person> people = new List<Person>();
         foreach (var p in GetPeopleInfo())
         {
